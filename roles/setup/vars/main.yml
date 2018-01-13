@@ -21,6 +21,11 @@ applications:
   - ctags
   - terraform
   - yarn
+  - tmux
+  - dinghy
+  - aws-cli
+  - yarn
+  - php71
 
 # homebrew cask applications
 cask_applications:
