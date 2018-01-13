@@ -6,16 +6,8 @@
     repo: https://github.com/robbyrussell/oh-my-zsh.git
     dest: "{{general.local_home}}/.oh-my-zsh"
 
-- name: getting dracula theme for oh-my-zsh
-  git:
-    repo: https://github.com/dracula/zsh.git
-    dest: "{{general.local_home}}/.oh-my-zsh_dracula_theme"
-
-- name: sym linking oh-my-zsh theme
-  file:
-    src: "{{general.local_home}}/.oh-my-zsh_dracula_theme/dracula.zsh-theme"
-    dest: "{{general.local_home}}/.oh-my-zsh/themes/dracula.zsh-theme"
-    state: link
+- name: install antigen
+  command: "curl -L git.io/antigen > {{general.local_home}}/antigen.zsh"
 
 - name: create workspace directories
   file:
@@ -31,7 +23,7 @@
   get_url:
     url: "https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
     dest: "{{general.local_home}}/.local/share/nvim/site/autoload/plug.vim"
-  
+
 
 
 
