@@ -16,12 +16,11 @@ applications:
   - zsh
   - go
   - vim
-  - hugo
-  - saltstack
   - neovim
   - ag 
   - ctags
   - terraform
+  - yarn
 
 # homebrew cask applications
 cask_applications:
@@ -31,22 +30,15 @@ cask_applications:
   - caffeine
   - docker
   - minikube
-  - vagrant
-  - emacs
-  - garmin-express
   - 1password
   - alfred
   - virtualbox
-  - spotify
-  - steam
+  - skype
+  - sqlectron
+  - the-unarchiver
+  - rambox
+  - phpstorm
+  - webstorm
+  - evernote
 
-downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-   suuntolink:
-     name: Suunto Movescount link
-     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
-
+downloads: ~
