@@ -24,3 +24,18 @@
   homebrew_tap:
     tap: "codekitchen/dinghy"
     state: present
+
+- name: tap homebrew homebrew/dupes
+  homebrew_tap:
+    tap: "homebrew/dupes"
+    state: present
+
+- name: tap homebrew homebrew/versions
+  homebrew_tap:
+    tap: "homebrew/versions"
+    state: present
+
+- name: tap homebrew homebrew/homebrew-php
+  homebrew_tap:
+    tap: "homebrew/homebrew-php"
+    state: present
