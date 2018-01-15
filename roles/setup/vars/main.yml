@@ -23,7 +23,7 @@ applications:
   - yarn
   - tmux
   - dinghy
-  - aws-cli
+  - awscli
   - yarn
   - php71
 
