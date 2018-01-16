@@ -7,7 +7,11 @@
     dest: "{{general.local_home}}/.oh-my-zsh"
 
 - name: install antigen
-  command: "curl -L git.io/antigen > {{general.local_home}}/antigen.zsh"
+  get_url:
+    url:  '{{ item.url }}'
+    dest: '{{ item.target }}'
+  with_items:
+    - '{ "url": "https://raw.githubusercontent.com/zsh-users/antigen/master/antigen.zsh", "target": "{{general.local_home}}/antigen.zsh" }'
 
 - name: create workspace directories
   file:
