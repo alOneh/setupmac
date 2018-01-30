@@ -47,5 +47,6 @@ cask_applications:
   - phpstorm
   - webstorm
   - evernote
+  - postman
 
 downloads: {}
