@@ -27,6 +27,7 @@ applications:
   - awscli
   - yarn
   - php71
+  - reattach-to-user-namespace
 
 # homebrew cask applications
 cask_applications:
