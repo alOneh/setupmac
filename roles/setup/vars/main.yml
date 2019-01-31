@@ -37,7 +37,6 @@ cask_applications:
   - iterm2
   - caffeine
   - docker
-  - minikube
   - 1password
   - alfred
   - virtualbox
