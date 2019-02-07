@@ -48,5 +48,6 @@ cask_applications:
   - webstorm
   - evernote
   - postman
+  - 1password
 
 downloads: {}
