@@ -49,5 +49,6 @@ cask_applications:
   - evernote
   - postman
   - 1password
+  - osxfuse
 
 downloads: {}
